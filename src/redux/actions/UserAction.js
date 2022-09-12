@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "https://jwt-api-authentication.herokuapp.com/"
+const url = "https://jwt-api-authentication.herokuapp.com"
 
 export const userRegister =  user => {
     return(dispatch)=>{

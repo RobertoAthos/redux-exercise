@@ -20,7 +20,7 @@ const authReducer = (state = initialState, action) => {
                     _id: user._id
                 }
                 default:
-                    return state
+                    return !state
         }
 }
 
